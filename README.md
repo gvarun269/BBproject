@@ -25,7 +25,7 @@ EasyRide is a full-stack web application built using the MERN stack (MongoDB, Ex
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/gvarun269/easyride-bus-booking.git
+git clone https://github.com/gvarun269/BBproject
 cd easyride-bus-booking
 
 # Frontend
