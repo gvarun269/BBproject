@@ -1,0 +1,87 @@
+.select-seats-page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.seat {
+  width: 55px;
+  height: 60px; /* Slightly increased height */
+  margin: 6px;
+  background-color: #f4f4f4;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border: 2px solid #ccc;
+}
+
+.seat:hover {
+  background-color: #ddeafc;
+}
+
+.selected {
+  background-color: #FF7D29;
+  color: white;
+  border: 2px solid #cc5200;
+}
+
+.booked {
+  background-color: #999;
+  color: white;
+  cursor: not-allowed;
+  border: 2px solid #666;
+}
+
+.sleeper-layout {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.right-pair .pair {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-layout {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+/* 🎁 NEW - Box around each berth section */
+.berth-box {
+  border: 2px dashed #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: fit-content;
+  background-color: #fefefe;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.05);
+}
+
+.berth-box h4 {
+  color: #1b3557;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* For Seater */
+.seater-layout .row {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
