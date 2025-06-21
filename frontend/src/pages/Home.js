@@ -128,19 +128,19 @@ const [journeyDate, setJourneyDate] = useState('');
       <section className="why-us-section text-center py-5">
         <h2 className="section-title mb-4">Why Choose EasyRide?</h2>
         <div className="row justify-content-center">
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6 col-12 mb-4">
             <h5>✅ Instant Booking</h5>
             <p>Book your seats within seconds.</p>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6 col-12 mb-4">
             <h5>🚌 Live Seat Availability</h5>
             <p>Get real-time updates on available seats.</p>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6 col-12 mb-4">
             <h5>💳 Secure Payments</h5>
             <p>100% secure & encrypted payment system.</p>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6 col-12 mb-4">
             <h5>🧑‍💼 24/7 Support</h5>
             <p>Our team is here to help you anytime.</p>
           </div>

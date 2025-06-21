@@ -40,13 +40,17 @@ body {
 }
 
 .overlay {
-  background-color: transparent; /* remove black transparent */
   padding: 30px;
   border-radius: 10px;
   color: black;
   text-align: center;
-  margin-right: 800px;
+  max-width: 400px;
+  width: 90%;
+  background-color: transparent;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 
 
 .search-heading {
