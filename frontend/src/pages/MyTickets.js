@@ -18,7 +18,7 @@ const MyTickets = () => {
       }
 
       try {
-        const response = await axios.get("http://localhost:5000/api/bookings/my-tickets", {
+        const response = await axios.get("https://bbproject-7b2j.onrender.com/api/bookings/my-tickets", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

@@ -30,7 +30,7 @@ const SignUp = () => {
     setIsSubmitting(true);
 
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/signup', formData);
+      const res = await axios.post('https://bbproject-7b2j.onrender.com/api/auth/signup', formData);
 
       if (res.status === 201) {
         // Redirect to sign-in with success state

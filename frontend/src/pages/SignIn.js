@@ -16,7 +16,7 @@ const SignIn = () => {
     setError("");
 
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/signin", {
+      const res = await axios.post("https://bbproject-7b2j.onrender.com/api/auth/signin", {
         email,
         password,
       });

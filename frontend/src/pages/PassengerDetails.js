@@ -41,7 +41,7 @@ const PassengerDetails = () => {
       setSubmitting(true);
       setError("");
 
-      const response = await axios.post("http://localhost:5000/api/bookings/book", {
+      const response = await axios.post("https://bbproject-7b2j.onrender.com/api/bookings/book", {
         busId: bus._id,
         selectedSeats: selectedSeats,
         passengers,

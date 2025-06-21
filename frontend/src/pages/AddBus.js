@@ -27,7 +27,7 @@ const AddBus = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/buses/add", formData);
+      const res = await axios.post("https://bbproject-7b2j.onrender.com/api/buses/add", formData);
       alert("Bus added successfully!");
       console.log("Added bus:", res.data);
     } catch (error) {

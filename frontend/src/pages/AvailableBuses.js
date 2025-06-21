@@ -14,7 +14,7 @@ const AvailableBuses = () => {
   useEffect(() => {
     const fetchBuses = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/buses/search", {
+        const response = await axios.get("https://bbproject-7b2j.onrender.com/api/buses/search", {
           params: { from, to, journeyDate },
         });
         setBuses(response.data);
